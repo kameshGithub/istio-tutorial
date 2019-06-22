@@ -3,6 +3,8 @@ kind: "Policy"
 metadata:
   name: "customerjwt"
 spec:
+  peers:
+  - mtls: {}
   targets:
   - name: customer
   origins:

@@ -3,7 +3,7 @@ kind: "DestinationRule"
 metadata:
   name: "default"
 spec:
-  host: "*.tutorial.svc.cluster.local"
+  host: "*.demo.svc.cluster.local"
   trafficPolicy:
     tls:
       mode: ISTIO_MUTUAL

@@ -10,9 +10,9 @@ spec:
     - destination:
         host: recommendation
         subset: version-v1
-      weight: 50
+      weight: 10
     - destination:
         host: recommendation
         subset: version-v2
-      weight: 50
+      weight: 90
 ---
